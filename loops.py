@@ -13,7 +13,7 @@ msg = ''
 # print all the uppercase letters in s, one at a time
 for char in s:
     if char.isupper():
-        print(char, end='')  # HELLO
+        print(char, end='')
 
 for i in range(6):
     print('\n', 'Doing important work i =', i)
