@@ -60,7 +60,7 @@ def elementwise_greater_than(L, thresh):
 
 def menu_is_boring(meals):
     """Given a list of meals served over some period of time, return True if the
-    same meal has ever been served two days in a row, and False otherwise.
+    same meal has ever been served two days in a row and False otherwise.
     """
     for i in range(1, len(meals)):
         if meals[i] == meals[i - 1]: # "Check if today's meal is the same as yesterday's meal."
@@ -97,5 +97,4 @@ def estimate_average_slot_payout(n_runs):
         total_profit += result
     return total_profit / n_runs
 
-# Example test
 print(estimate_average_slot_payout(10000))
